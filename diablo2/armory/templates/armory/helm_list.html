@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Defense</th>
+                    <th>Strenght</th>
+                    <th>Durability</th>
+                    <th>Sockets</th>
+                    <th>TC</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for helm in object_list %}
+                <tr>
+                    <td>{{ helm.name }}</td>
+                    <td>{{ helm.min_defense }} - {{ max_defense }}</td>
+                    <td>{{ helm.strenght }}</td>
+                    <td>{{ helm.durability }}</td>
+                    <td>{{ helm.sockets }}</td>
+                    <td>{{ helm.tc }}</td>
+                </tr>
+                {% empty %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>
