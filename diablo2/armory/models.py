@@ -10,4 +10,4 @@ class Helm(models.Model):
     durability = models.IntegerField()
     sockets = models.IntegerField()
     tc = models.IntegerField()
-    image = models.ImageField()
+    image = models.ImageField(blank=True, null=True)
