@@ -11,3 +11,6 @@ class Helm(models.Model):
     sockets = models.IntegerField()
     tc = models.IntegerField()
     image = models.ImageField(blank=True, null=True)
+
+    def __unicode__(self):
+        return self.name
