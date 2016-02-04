@@ -1,3 +1,4 @@
 *.pyc
+*.swp
 *.sqlite3
 diablo2/armory/migrations
