@@ -18,30 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: armory/templates/armory/base.html:7
-msgid "Armory"
-msgstr "Armería"
+#: diablo2/settings.py:109
+msgid "Spanish"
+msgstr "Español"
 
-#: armory/templates/armory/helm_list.html:9
-msgid "Name"
-msgstr "Nombre"
-
-#: armory/templates/armory/helm_list.html:10
-msgid "Defense"
-msgstr "Defensa"
-
-#: armory/templates/armory/helm_list.html:11
-msgid "Strenght"
-msgstr "Fuerza"
-
-#: armory/templates/armory/helm_list.html:12
-msgid "Durability"
-msgstr "Durabilidad"
-
-#: armory/templates/armory/helm_list.html:13
-msgid "Sockets"
-msgstr "Huecos"
-
-#: armory/templates/armory/helm_list.html:14
-msgid "TC"
-msgstr "TC"
+#: diablo2/settings.py:110
+msgid "English"
+msgstr "Inglés"
