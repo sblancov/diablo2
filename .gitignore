@@ -1,4 +1,5 @@
 *.pyc
 *.swp
 *.sqlite3
+bower_components
 diablo2/armory/migrations
