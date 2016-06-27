@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'djangobower',
     'armory',
 )
 
@@ -103,6 +104,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_FINDERS = [
+    'djangobower.finders.BowerFinder',
+]
+
+BOWER_COMPONENTS_ROOT = '/' + BASE_DIR + '/'
+BOWER_INSTALLED_APPS = (
+    'jquery#3.0.0',
+)
 
 LANGUAGES = [
     ('es', _('Spanish')),
