@@ -3,3 +3,6 @@
 *.sqlite3
 bower_components
 diablo2/armory/migrations
+vep2/
+.activate
+.vscode
