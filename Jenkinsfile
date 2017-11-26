@@ -8,7 +8,7 @@ pipeline {
         }
         stage ('Test') {
             steps {
-                python diablo2/manage.py test
+                sh "python diablo2/manage.py test"
             }
         }
     }
