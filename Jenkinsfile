@@ -6,5 +6,10 @@ pipeline {
                 echo 'Hello pipeline!'
             }
         }
+        stage ('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
     }
 }
